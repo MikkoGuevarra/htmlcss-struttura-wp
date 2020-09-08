@@ -16,9 +16,10 @@ body {
 }
 
 header {
-    height: 300px;
-    background-color: red;
     margin-top: 10px;
+    text-align: center;
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    padding: 100px 0;
 
 }
 
@@ -54,4 +55,18 @@ footer {
     height: 150px;
     background-color: gold;
     margin-top: 10px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+header h2 {
+    font-size: 30px;
 }
