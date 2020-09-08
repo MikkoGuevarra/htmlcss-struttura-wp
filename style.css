@@ -98,7 +98,7 @@ nav li:hover {
     background-color: #2e1f21;
 }
 
-aside .left-side {
+aside .window {
     margin-bottom: 20px;
     padding: 20px;
     font-size: 30px;
@@ -106,7 +106,7 @@ aside .left-side {
 }
 
 
-.left-side li a {
+.window li a {
 font-size: 15px;
 text-decoration: none;
 color: green;
