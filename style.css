@@ -31,7 +31,7 @@ nav {
 }
 
 aside {
-    height: 300px;
+    height: 600px;
     background-color: purple;
     float: left;
     width: 20%;
@@ -96,4 +96,20 @@ nav li {
 }
 nav li:hover {
     background-color: #2e1f21;
+}
+
+aside .left-side {
+    height: 200px;
+}
+
+#pages {
+    background-color: yellow;
+}
+
+#archives {
+    background-color: grey;
+}
+
+#meta {
+    background-color: green;
 }
