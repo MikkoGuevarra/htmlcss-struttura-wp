@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-image:url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png);
+}
+
 #wrapper {
     width: 1200px;
     height: 1000px;
@@ -15,4 +19,9 @@ header {
     height: 300px;
     background-color: red;
 
+}
+
+nav {
+    height: 100px;
+    background-color: brown;
 }
