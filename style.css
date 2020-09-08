@@ -19,13 +19,13 @@ header {
     margin-top: 10px;
     text-align: center;
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
-    padding: 100px 0;
+    padding: 50px 0;
     border: 10px solid white;
 
 }
 
 nav {
-    height: 70px;
+    height: 50px;
     background-color: #504741;
     margin-bottom: 10px;
 }
@@ -90,9 +90,9 @@ nav a {
 }
 
 nav li {
-    height: 70px;
-    line-height: 70px;
-    padding: 0 30px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
 }
 nav li:hover {
     background-color: #2e1f21;
