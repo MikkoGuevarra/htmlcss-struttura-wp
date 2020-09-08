@@ -20,12 +20,13 @@ header {
     text-align: center;
     background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
     padding: 100px 0;
+    border: 10px solid white;
 
 }
 
 nav {
-    height: 100px;
-    background-color: brown;
+    height: 70px;
+    background-color: #504741;
     margin-bottom: 10px;
 }
 
@@ -57,7 +58,7 @@ footer {
     margin-top: 10px;
 }
 
-h1, h2 {
+h1, h2, ul {
     text-transform: uppercase;
     color: white;
 }
@@ -69,4 +70,30 @@ header h1 {
 
 header h2 {
     font-size: 30px;
+}
+
+
+ul li{
+    display: inline-block;
+}
+
+nav ul {
+
+    text-align: center;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+nav li {
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+}
+nav li:hover {
+    background-color: #2e1f21;
 }
