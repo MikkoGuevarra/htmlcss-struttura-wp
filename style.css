@@ -133,6 +133,7 @@ h2 a {
 
 }
 
+
 div img {
     max-width: 100%;
 }
@@ -153,4 +154,21 @@ div img {
     width: 80%;
     margin: auto;
     border-bottom: 2px solid gray;
+}
+
+li a:hover, a:hover {
+    text-decoration: underline;
+}
+
+aside li a:hover {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+footer div {
+    height: 300px;
+    background-color: red;
+    border: 1px solid black;
+    float: left;
+    width: 25%;
 }
