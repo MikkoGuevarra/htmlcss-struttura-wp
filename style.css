@@ -43,7 +43,7 @@ main {
     width: calc(60% - 20px);
 }
 
-.container::after {
+.container::after, .foot-container::after, .copyright::after {
     content: "";
     display: table;
     clear: both;
@@ -177,11 +177,6 @@ aside li a:hover, .colon li a:hover {
      width: 40%;
  }
 
- .foot-container::after, .copyright::after {
-     content: "";
-     display: table;
-     clear: both;
- }
 
  .colon h5 {
      font-size: 20px;
