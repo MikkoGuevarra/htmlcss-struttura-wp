@@ -4,9 +4,15 @@
     padding: 0;
 }
 
-.container {
+#wrapper {
     width: 1200px;
     height: 1000px;
     background-color: lightblue;
     margin: auto;
+}
+
+header {
+    height: 300px;
+    background-color: red;
+
 }
