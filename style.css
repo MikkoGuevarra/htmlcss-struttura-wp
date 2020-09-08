@@ -10,8 +10,7 @@ body {
 
 #wrapper {
     width: 1200px;
-    height: 1000px;
-    background-color: lightblue;
+
     margin: auto;
 }
 
@@ -32,9 +31,9 @@ nav {
 
 aside {
     height: 600px;
-    background-color: purple;
     float: left;
     width: 20%;
+    background-color: purple;
 }
 
 main {
@@ -73,7 +72,7 @@ header h2 {
 }
 
 
-ul li{
+nav ul li{
     display: inline-block;
 }
 
@@ -99,11 +98,14 @@ nav li:hover {
 }
 
 aside .left-side {
-    height: 200px;
+    height: 600px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 #pages {
-    background-color: yellow;
+    background-color: white;
+    font-size: 30px;
 }
 
 #archives {
@@ -112,4 +114,10 @@ aside .left-side {
 
 #meta {
     background-color: green;
+}
+
+.left-side li a {
+font-size: 20px;
+text-decoration: none;
+color: green;
 }
