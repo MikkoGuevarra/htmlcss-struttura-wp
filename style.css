@@ -26,7 +26,7 @@ header {
 nav {
     height: 50px;
     background-color: #504741;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 aside {
@@ -57,7 +57,7 @@ footer {
     margin-top: 10px;
 }
 
-h1, h2, ul {
+h1, h2 {
     text-transform: uppercase;
     color: white;
 }
@@ -74,6 +74,7 @@ header h2 {
 
 nav ul li{
     display: inline-block;
+    text-transform: uppercase;
 }
 
 nav ul {
@@ -98,26 +99,19 @@ nav li:hover {
 }
 
 aside .left-side {
-    height: 600px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 20px;
-}
-
-#pages {
-    background-color: white;
     font-size: 30px;
+    background-color: white;
 }
 
-#archives {
-    background-color: grey;
-}
-
-#meta {
-    background-color: green;
-}
 
 .left-side li a {
-font-size: 20px;
+font-size: 15px;
 text-decoration: none;
 color: green;
+}
+
+ul li {
+    list-style: none;
 }
