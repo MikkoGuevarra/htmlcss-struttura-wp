@@ -161,7 +161,7 @@ li a:hover, a:hover {
 }
 
 aside li a:hover, .colon li a:hover {
-    border: 1px solid gray;
+    border: 1px solid lightgrey;
     padding: 5px;
     ba
 }
@@ -197,19 +197,22 @@ aside li a:hover, .colon li a:hover {
  }
 
  .copyright {
-     height: 200px;
-     background-color: red;
+     background-color: white;
+     padding: 60px 60px;
+
+ }
+
+ .foot-container {
+     border-bottom: 2px solid lightgrey;
+
  }
 
  .leftpart {
-     height: 200px;
-     background-color: yellow;
      float: left;
      width: 50%;
+
  }
  .rightpart {
-     height: 200px;
-     background-color: pink;
      float: left;
      width: 50%;
  }
