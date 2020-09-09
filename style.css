@@ -200,7 +200,7 @@ aside li a:hover, .colon li a:hover {
 
  .copyright {
      background-color: white;
-     padding: 60px 60px;
+     /padding: 30px 30px; */
 
  }
 
@@ -212,9 +212,14 @@ aside li a:hover, .colon li a:hover {
  .leftpart {
      float: left;
      width: 50%;
+     height: 100px;
+     background-color: red;
 
  }
  .rightpart {
      float: left;
      width: 50%;
+     height: 100px;
+     background-color: yellow;
+
  }
